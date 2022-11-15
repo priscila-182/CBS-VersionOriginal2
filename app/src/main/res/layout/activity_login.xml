@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/atras1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#BBDEFB"
+                    android:src="@drawable/flechaatras"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtView1"
+                    android:layout_width="264dp"
+                    android:layout_height="52dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="47dp"
+                    android:layout_marginEnd="87dp"
+                    android:layout_marginBottom="693dp"
+                    android:text="Inicio de Sesión"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/txtCorreoElectronico"
+                    android:layout_width="246dp"
+                    android:layout_height="54dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginTop="182dp"
+                    android:layout_marginEnd="96dp"
+                    android:layout_marginBottom="479dp"
+                    android:backgroundTint="@color/black"
+                    android:drawableLeft="@drawable/correoelectronico"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Correo Electrónico"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/txtContraseña"
+                    android:layout_width="245dp"
+                    android:layout_height="53dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="79dp"
+                    android:layout_marginTop="283dp"
+                    android:layout_marginEnd="95dp"
+                    android:layout_marginBottom="369dp"
+                    android:backgroundTint="@color/black"
+                    android:drawableLeft="@drawable/usuario"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Contraseña"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btnIniciarSesion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="420dp"
+                    android:layout_marginEnd="128dp"
+                    android:layout_marginBottom="211dp"
+                    android:backgroundTint="@color/black"
+                    android:text="Iniciar Sesión" />
+
+                <TextView
+                    android:id="@+id/txtGuiarRegistro"
+                    android:layout_width="240dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="79dp"
+                    android:layout_marginTop="506dp"
+                    android:layout_marginEnd="98dp"
+                    android:layout_marginBottom="-69dp"
+                    android:text="¿No tienes una cuenta? Registrarse"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+</RelativeLayout>

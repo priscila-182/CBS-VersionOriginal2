@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/atras2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#BBDEFB"
+            android:src="@drawable/flechaatras"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txtView1"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginBottom="519dp"
+            android:text="Registro"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/EditTxt1"
+            android:layout_width="237dp"
+            android:layout_height="74dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="169dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="382dp"
+            android:backgroundTint="@color/black"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nombre Usuario"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/EditTxt2"
+            android:layout_width="235dp"
+            android:layout_height="73dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="83dp"
+            android:layout_marginBottom="369dp"
+            android:backgroundTint="@color/black"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Correo Electrónico"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/EditTxt3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="368dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="274dp"
+            android:backgroundTint="@color/black"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Contraseña"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="492dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="66dp"
+            android:backgroundTint="@color/black"
+            android:text="Registrar" />
+
+    </RelativeLayout>
+
+</LinearLayout>
